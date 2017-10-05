@@ -1,19 +1,12 @@
 .modal-overlay {
   display: none !important;
 }
-/*h1 {
-  background-color: #4484CE;
-  color: white;
-  padding: 10px;
-  text-align: center;
-}*/
 .btn {
   margin-left: 12px;
-  /*background-color: #4484CE !important;*/
   border-radius: 25px !important;
   box-shadow: 1px 1px 1px black !important;
   right: -350px;
-  top: -27px !important;
+  top: 15px !important;
   padding:  13px !important;
   line-height: 3px !important;
   height: 27px !important;
@@ -147,8 +140,15 @@ html, body {
 .mapWrapper {
   position: absolute;
   z-index: 1000;
-  top: 30px;
+  top: 100px;
   color: white;
+}
+.loginWrapper {
+  position: absolute;
+  z-index: 1000;
+  top: -12px;
+  color: white;
+
 }
 .infoBox {
   overflow: hidden;
@@ -205,10 +205,10 @@ html, body {
     top: 0px !important;
   }
   .mapWrapper {
-    top: 120px;
+    top: 197px;
   }
   .btn {
-    top: -115px !important;
+    top: 15px !important;
     right: -350px;
   }
 }
@@ -221,12 +221,12 @@ html, body {
 
 @media screen and (max-width: 545px) {
   .btn {
-    top: -64px !important;
-    right: -225px;
+    top: 15px !important;
+    right: -350px;
   }
 }
 
-@media screen and (max-width: 427px) {
+@media screen and (max-width: 445px) {
   #infoBox {
     width: 195px;
   }
@@ -243,7 +243,7 @@ html, body {
     margin-left: 0px;
   }
   .btn {
-    right: -210px;
-    top: -64px !important;
+    right: -215px;
+    top: 65px !important;
   }
 }
