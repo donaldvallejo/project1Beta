@@ -1,12 +1,12 @@
 .modal-overlay {
   display: none !important;
 }
-h1 {
+/*h1 {
   background-color: #4484CE;
   color: white;
   padding: 10px;
   text-align: center;
-}
+}*/
 .btn {
   margin-left: 12px;
   /*background-color: #4484CE !important;*/
