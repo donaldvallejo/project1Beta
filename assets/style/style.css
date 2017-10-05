@@ -12,7 +12,8 @@ h1 {
   /*background-color: #4484CE !important;*/
   border-radius: 25px !important;
   box-shadow: 1px 1px 1px black !important;
-  right: 12px !important;
+  right: -350px;
+  top: -27px !important;
   padding:  13px !important;
   line-height: 3px !important;
   height: 27px !important;
@@ -41,7 +42,7 @@ label {
 
 h1{
   text-align: center;
-  background-color: #4d90fe;
+  background-color: #4484CE;
   padding: 20px;
   margin: 0px;
   color: white;
@@ -83,6 +84,7 @@ a {
   background-color: #4484CE;
 }
 h3 {
+  font-size: 30px !important;
   margin: 2px !important;
   color: white !important;
   font-family: 'orangejuice' !important;
@@ -145,7 +147,7 @@ html, body {
 .mapWrapper {
   position: absolute;
   z-index: 1000;
-  top: 105px;
+  top: 30px;
   color: white;
 }
 .infoBox {
@@ -203,13 +205,24 @@ html, body {
     top: 0px !important;
   }
   .mapWrapper {
-    top: 195px;
+    top: 120px;
+  }
+  .btn {
+    top: -115px !important;
+    right: -350px;
   }
 }
 
 @media screen and (max-width: 600px) {
   #map {
     width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .btn {
+    top: -64px !important;
+    right: -225px;
   }
 }
 
@@ -228,5 +241,9 @@ html, body {
   }
   #mode-selector {
     margin-left: 0px;
+  }
+  .btn {
+    right: -210px;
+    top: -64px !important;
   }
 }
