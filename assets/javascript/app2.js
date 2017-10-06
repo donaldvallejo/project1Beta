@@ -1,5 +1,4 @@
 $(document).ready(function(){
-  //  the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
    $('.modal-trigger').modal();
  });
 
@@ -166,7 +165,7 @@ AutocompleteDirectionsHandler.prototype.setupPlaceChangedListener = function(aut
 
                 $(".destinationInfo").append(
                   "<span class=" + iconNew + ">" + iconNew + "</span>" +
-                  "<img src='assets/images/sun.png'>"
+                  "<img src='assets/images/"+ iconNew +".png'>"
                 );
               });
 
