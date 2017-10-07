@@ -148,7 +148,7 @@ AutocompleteDirectionsHandler.prototype.setupPlaceChangedListener = function(aut
             console.log(stateName)
             console.log(cityName)
 
-            var queryURL = "http://api.wunderground.com/api/badbf91cbcaea172/hourly/q/" + stateName + "/" + cityName + ".json"
+            var queryURL = "https://api.wunderground.com/api/badbf91cbcaea172/hourly/q/" + stateName + "/" + cityName + ".json"
 
             $.ajax({
                 url: queryURL,
@@ -277,7 +277,7 @@ function timeAtDestination(duration, currentZone, destinationZone) {
 
 
 /*timeZone API
-http://api.timezonedb.com/v2/get-time-zone?key=WE21E5J1HORM&format=json&by=position&lat=40.712916&lng=-74.00582930000002
+https://api.timezonedb.com/v2/get-time-zone?key=WE21E5J1HORM&format=json&by=position&lat=40.712916&lng=-74.00582930000002
 https://timezonedb.com/ajax.get-time-zone?coordinate=test%2Ctest
 
 Username : coolteam
